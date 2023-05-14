@@ -15,26 +15,26 @@
       <h1>Test Form</h1>
     </div>
     <div class="main">
-      <form action="form.php">
-        <label for="id_name">Name</label>
-        <input type="text" name="Name" id="id_name">
-        <label for="id_surname">Surname</label>
-        <input type="text" name="Surname" id="id_surname">
-        <label for="id_nationality">Nationality</label>
-        <input type="text" name="Nationality" id="id_nationality">
-        <label for="id_color">Favorite Color</label>
-        <input type="radio" name="color" id="blue">
+      <form action="form.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name">
+        <label for="surname">Surname</label>
+        <input type="text" name="Surname" id="surname">
+        <label for="nationality">Nationality</label>
+        <input type="text" name="Nat" id="nationality">
+        <label for="color">Favorite Color</label>
+        <input type="radio" name="Color" value="blue" id="blue">
         <label for="blue">Blue</label>
-        <input type="radio" name="color" id="red">
+        <input type="radio" name="Color" value="red" id="red">
         <label for="red">Red</label>
-        <input type="radio" name="color" id="green">
+        <input type="radio" name="Color" value="green" id="green">
         <label for="green">Green</label>
-        <select name="vehicle" id="id_vehicle">
+        <select name="Vehicle" id="vehicle">
           <option value="car">Car</option>
           <option value="bike">Bike</option>
           <option value="truck">Truck</option>
         </select>
-        <input type="submit" value="Send" name="submit form" id="poste">
+        <input type="submit" value="Send" name="submit" id="poste">
       </form>
     </div>
   </div>
